@@ -1,4 +1,4 @@
-FROM convox/rails
+FROM convox/rails:2.5.0
 
 # copy only the files needed for bundle install
 # uncomment the vendor/cache line if you `bundle package` your gems
