@@ -29,7 +29,7 @@ Starting from the `convox/rails` image, the [generated Dockerfile](https://githu
 
 ### convox.yml
 
-The [convox.yml](https://github.com/convox-examples/rails/blob/master/convox.yml) file explains how to run the application. This generated file describes a `web` container which will be your main Rails web process. The various sections of the `web` configuration are described below:
+The [convox.yml](https://github.com/convox-examples/rails/blob/master/convox.yml) file explains how to run the application. This generated file describes a `web` service which will be your main Rails web process.
 
 ## Deploying the application
 
