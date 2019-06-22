@@ -34,6 +34,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # PUMA
 gem 'puma'
+gem 'bootsnap'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -51,5 +52,6 @@ group :development do
   gem 'spring'
 
   gem 'dotenv'
+  gem 'listen'
 end
 
