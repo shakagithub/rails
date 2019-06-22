@@ -50,6 +50,9 @@ GEM
     concurrent-ruby (1.1.5)
     crass (1.0.4)
     dotenv (2.7.3)
+    dotenv-rails (2.7.3)
+      dotenv (= 2.7.3)
+      railties (>= 3.2, < 6.1)
     erubi (1.8.0)
     execjs (2.7.0)
     ffi (1.11.1)
@@ -159,7 +162,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   byebug
-  dotenv
+  dotenv-rails
   jbuilder (~> 2.0)
   listen
   pg (< 1.0.0)

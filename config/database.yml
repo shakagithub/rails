@@ -1,5 +1,7 @@
 development:
-  url: <%= ENV["DATABASE_URL"].sub("mysql://", "mysql2://") %>
+  adapter: postgresql
+  database: shakapg
+  pool: 5
 
 production:
   url: <%= ENV["DATABASE_URL"].sub("mysql://", "mysql2://") %>
